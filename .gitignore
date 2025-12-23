@@ -1,0 +1,33 @@
+# Secrets - NEVER commit these
+*.pem
+*.pfx
+*.key
+local.settings.json
+
+# Test/Dev files
+function_app_nosec.py
+function_app_test.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Azure Functions
+bin/
+obj/
+.python_packages/
+
+# Prowler output
+output/
